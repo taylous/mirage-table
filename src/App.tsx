@@ -1,8 +1,11 @@
+// app
 import VirtualizedList from './apps/VirtualizedList/App';
+
+// molecules
+import Item from './molecules/Item';
 
 // dummy
 import userList, { User } from './dummy';
-import Item from './molecules/Item';
 
 function App() {
   return (
